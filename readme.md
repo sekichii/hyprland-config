@@ -32,16 +32,14 @@ Note: You might need different modules. This repo is more of a personal backup f
 ```
 pacstrap -K /mnt base linux linux-firmware \
         hyprland hyprpaper hypridle hyprlock hyprcursor \
-        waybar wofi grim slurp wl-clipboard \
+        waybar wofi grim slurp wl-clipboard mako thunar foot \
         pipewire wireplumber pipewire-pulse brightnessctl pavucontrol \
-        iwd networkmanager \
-        mako thunar foot \
-        qt5-wayland qt6-wayland \
         noto-fonts noto-fonts-cjk noto-fonts-emoji ttf-jetbrains-mono \
         bluez bluez-utils tlp vim git base-devel \
         intel-ucode vulkan-intel intel-media-driver libva-utils \
+        vulkan-tools mesa-utils qt5-wayland qt6-wayland \
         sudo curl wget unzip zip screenfetch \
         xdg-desktop-portal-hyprland xdg-user-dirs xdg-utils \
-        polkit lxqt-policykit gvfs gvfs-mtp \
-        vulkan-tools mesa-utils thermald acpid fwupd zram-generator
+        iwd networkmanager polkit lxqt-policykit gvfs gvfs-mtp \
+        thermald acpid fwupd zram-generator
 ```

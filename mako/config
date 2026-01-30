@@ -1,0 +1,12 @@
+outer-margin=5
+margin=5
+
+border-size=2
+border-color=#CB95AF
+border-radius=10
+
+progress-color=over #7FD1A8
+icons=1
+
+max-visible=4
+anchor=top-center

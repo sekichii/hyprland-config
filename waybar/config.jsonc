@@ -1,0 +1,11 @@
+{
+    // https://man.archlinux.org/man/waybar.5
+    "layer": "top",
+    "position": "bottom",
+    "expand-left": true,
+    "expand-right": true,
+    "modules-left": [],
+    "modules-center": [],
+    "modules-right": [],
+    "margin": "10px"
+}
