@@ -1,11 +1,31 @@
 {
     // https://man.archlinux.org/man/waybar.5
+    
+    // stats: waybar-memory waybar-cpu waybar-battery
+    // center: waybar-hyprland-window
+    // control: waybar-bluetooth waybar-clock
     "layer": "top",
     "position": "bottom",
     "expand-left": true,
     "expand-right": true,
-    "modules-left": [],
-    "modules-center": [],
-    "modules-right": [],
-    "margin": "10px"
+    "modules-left": ["group/stats"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["group/control"],
+    "margin": "10px",
+    "group/stats": {
+        "modules": [
+            "cpu",
+            "memory",
+            "battery"
+        ]
+    },
+    "hyprland/window": {
+        "format": "{}"
+    },
+    "group/control": {
+        "modules": [
+            "bluetooth",
+            "clock"
+        ]
+    }
 }
